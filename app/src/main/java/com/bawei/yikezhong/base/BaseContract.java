@@ -7,6 +7,8 @@ public interface BaseContract {
         void detachView();
     }
     interface BaseView{
+        void showLoading();
 
+        void dismissLoading();
     }
 }
